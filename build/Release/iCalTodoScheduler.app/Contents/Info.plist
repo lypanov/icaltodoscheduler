@@ -5,13 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>CalTest</string>
+	<string>iCalTodoScheduler</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.CalTest</string>
+	<string>com.yourcompany.iCalTodoScheduler</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>CalTest</string>
+	<string>iCalTodoScheduler</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>

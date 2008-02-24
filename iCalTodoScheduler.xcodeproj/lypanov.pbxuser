@@ -1,0 +1,120 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = BD078D7A0D71F06E00C4C788 /* iCalTodoScheduler */;
+		activeTarget = 8D1107260486CEB800E47090 /* iCalTodoScheduler */;
+		codeSenseManager = BD078D8A0D71F08C00C4C788 /* Code sense */;
+		executables = (
+			BD078D7A0D71F06E00C4C788 /* iCalTodoScheduler */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 225571048;
+			PBXWorkspaceStateSaveDate = 225571048;
+		};
+		perUserProjectItems = {
+			BD078D8C0D71F09500C4C788 = BD078D8C0D71F09500C4C788 /* PBXBookmark */;
+			BD078D930D71F0CF00C4C788 = BD078D930D71F0CF00C4C788 /* PBXTextBookmark */;
+			BDA2CF2C0D71F0F100A82F61 /* PBXTextBookmark */ = BDA2CF2C0D71F0F100A82F61 /* PBXTextBookmark */;
+		};
+		sourceControlManager = BD078D890D71F08C00C4C788 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {839, 595}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 67}";
+			sepNavWindowFrame = "{{153, 174}, {898, 723}}";
+		};
+	};
+	8D1107260486CEB800E47090 /* iCalTodoScheduler */ = {
+		activeExec = 0;
+		executables = (
+			BD078D7A0D71F06E00C4C788 /* iCalTodoScheduler */,
+		);
+	};
+	BD078D7A0D71F06E00C4C788 /* iCalTodoScheduler */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iCalTodoScheduler;
+		sourceDirectories = (
+		);
+	};
+	BD078D890D71F08C00C4C788 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	BD078D8A0D71F08C00C4C788 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BD078D8C0D71F09500C4C788 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+	};
+	BD078D930D71F0CF00C4C788 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 67;
+		vrLoc = 0;
+	};
+	BDA2CF2C0D71F0F100A82F61 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 67;
+		vrLoc = 0;
+	};
+}
