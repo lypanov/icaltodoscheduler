@@ -14,20 +14,28 @@ CalCalendar* findCalendar(NSString *calName) {
 int main(int argc, char *argv[])
 {
 	CalCalendar *shadow = findCalendar(@"Shadow");
-	CalCalendar *daily = findCalendar(@"@daily");	
+	CalCalendar *daily = findCalendar(@"@inbox");
 	if (!daily) {
-		NSLog(@"Couldn't find @daily calendar, please set this calendar up before using this application.");
+		NSLog(@"Couldn't find @inbox calendar, please set this calendar up before using this application.");
+		return 1;
 	}
 	CalCalendarStore *calStore = [CalCalendarStore defaultCalendarStore];
 	NSDate *midnightLastNight = [NSDate dateWithNaturalLanguageString:@"today at midnight" locale:nil];
 	NSDate *justBeforeMidnightTonight = [midnightLastNight addTimeInterval:(60*60*24 - 1)];
-	NSLog(@"say what - %@", justBeforeMidnightTonight);
 	NSPredicate *predicate = [CalCalendarStore eventPredicateWithStartDate: midnightLastNight
 		endDate:justBeforeMidnightTonight calendars:[NSArray arrayWithObject:shadow]];
 	NSArray *events = [calStore eventsWithPredicate:predicate];
-	NSLog(@"logging");
 	for (CalEvent *event in events) {
-		NSLog(@"%@", event.title);
+		CalTask *newTask = [CalTask task];
+		newTask.calendar = daily;
+		newTask.title = event.title;
+		newTask.dueDate = [NSDate date];
+		NSError *error;
+		[[CalCalendarStore defaultCalendarStore] saveTask:newTask error:&error];
+		if (error) {
+			NSLog(@"Error while saving task.");
+			return 1;
+		}
 	}
 	return 0;
 }
