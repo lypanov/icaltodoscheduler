@@ -5,6 +5,9 @@
 		activeBuildConfigurationName = Release;
 		activeExecutable = BD078D7A0D71F06E00C4C788 /* iCalTodoScheduler */;
 		activeTarget = 8D1107260486CEB800E47090 /* iCalTodoScheduler */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* iCalTodoScheduler */,
+		);
 		codeSenseManager = BD078D8A0D71F08C00C4C788 /* Code sense */;
 		executables = (
 			BD078D7A0D71F06E00C4C788 /* iCalTodoScheduler */,
@@ -32,13 +35,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 225571048;
-			PBXWorkspaceStateSaveDate = 225571048;
+			PBXPerProjectTemplateStateSaveDate = 225665174;
+			PBXWorkspaceStateSaveDate = 225665174;
 		};
 		perUserProjectItems = {
-			BD078D8C0D71F09500C4C788 = BD078D8C0D71F09500C4C788 /* PBXBookmark */;
-			BD078D930D71F0CF00C4C788 = BD078D930D71F0CF00C4C788 /* PBXTextBookmark */;
-			BDA2CF2C0D71F0F100A82F61 /* PBXTextBookmark */ = BDA2CF2C0D71F0F100A82F61 /* PBXTextBookmark */;
+			BDA2CF3F0D71F52000A82F61 /* PBXTextBookmark */ = BDA2CF3F0D71F52000A82F61 /* PBXTextBookmark */;
+			BDB57DF00D7360EB006C6E34 /* PBXTextBookmark */ = BDB57DF00D7360EB006C6E34 /* PBXTextBookmark */;
 		};
 		sourceControlManager = BD078D890D71F08C00C4C788 /* Source Control */;
 		userBuildSettings = {
@@ -46,10 +48,10 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {839, 595}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 67}";
-			sepNavWindowFrame = "{{153, 174}, {898, 723}}";
+			sepNavIntBoundsRect = "{{0, 0}, {839, 952}}";
+			sepNavSelRange = "{2494, 0}";
+			sepNavVisRange = "{0, 1521}";
+			sepNavWindowFrame = "{{153, 210}, {898, 723}}";
 		};
 	};
 	8D1107260486CEB800E47090 /* iCalTodoScheduler */ = {
@@ -93,28 +95,24 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	BD078D8C0D71F09500C4C788 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-	};
-	BD078D930D71F0CF00C4C788 /* PBXTextBookmark */ = {
+	BDA2CF3F0D71F52000A82F61 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
+		name = "main.m: 68";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 2494;
 		rType = 0;
-		vrLen = 67;
+		vrLen = 1521;
 		vrLoc = 0;
 	};
-	BDA2CF2C0D71F0F100A82F61 /* PBXTextBookmark */ = {
+	BDB57DF00D7360EB006C6E34 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
+		name = "main.m: 68";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 2494;
 		rType = 0;
-		vrLen = 67;
+		vrLen = 1521;
 		vrLoc = 0;
 	};
 }

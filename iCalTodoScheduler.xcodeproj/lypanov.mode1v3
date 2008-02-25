@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>BDA2CF2C0D71F0F100A82F61</string>
+						<string>BDB57DF00D7360EB006C6E34</string>
 						<key>history</key>
 						<array>
-							<string>BD078D930D71F0CF00C4C788</string>
+							<string>BDA2CF3F0D71F52000A82F61</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -338,7 +338,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>208 311 690 397 0 0 1680 1028 </string>
+						<string>616 376 690 397 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -375,7 +375,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {482, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>208 311 690 397 0 0 1680 1028 </string>
+								<string>616 376 690 397 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -395,7 +395,7 @@
 								<key>Frame</key>
 								<string>{{0, 5}, {482, 351}}</string>
 								<key>RubberWindowFrame</key>
-								<string>208 311 690 397 0 0 1680 1028 </string>
+								<string>616 376 690 397 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -419,9 +419,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>BDA2CF2A0D71F0F100A82F61</string>
+				<string>BDB57DEC0D7360C5006C6E34</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>BDA2CF2B0D71F0F100A82F61</string>
+				<string>BDB57DED0D7360C5006C6E34</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -555,14 +555,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>BD078D940D71F0CF00C4C788</string>
-		<string>/Users/lypanov/Documents/Code/iCalTodoScheduler/iCalTodoScheduler.xcodeproj</string>
 		<string>BD078D910D71F0CF00C4C788</string>
-		<string>1CD10A99069EF8BA00B06720</string>
+		<string>/Users/lypanov/Documents/Code/iCalTodoScheduler/iCalTodoScheduler.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>208 311 690 397 0 0 1680 1028 </string>
+	<string>616 376 690 397 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -639,7 +637,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>BD078D940D71F0CF00C4C788</string>
-				<string>BDA2CF2D0D71F0F100A82F61</string>
+				<string>BDB57DEF0D7360C5006C6E34</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -774,7 +772,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
